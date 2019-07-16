@@ -1,0 +1,98 @@
+div#Detail {
+    width: 600px;
+    height: 200px;
+    position: relative;
+}
+
+div#info {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+div#img {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+}
+
+div#mobile {
+    position: relative;
+    border: 1px solid;
+    height: 200px;
+}
+
+div#product_one {
+    height: 100%;
+    width: 12.5%;
+    border: 1px solid;
+    position: absolute;
+}
+
+div#product_two {
+    height: 100%;
+    width: 25%;
+    left: 12.5%;
+    position: absolute;
+    border: 1px solid;
+}
+
+div#product_three {
+    height: 100%;
+    position: absolute;
+    border: 1px solid;
+    width: 37.5%;
+    left: 25%;
+}
+
+div#product_four {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid;
+    left: 37.5%;
+}
+
+div#product_five {
+    width: 62.5%;
+    left: 50%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid;
+}
+
+div#product_six {
+    width: 75%;
+    left: 62.5%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid;
+}
+
+div#product_seven {
+    width: 87.5%;
+    left: 75%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid;
+}
+
+div#product_eight {
+    width: 100%;
+    left: 87.5%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid;
+}
+
+img.image {
+    position: absolute;
+    left: 37px;
+    top: 15px;
+}
+
+.btn {
+    position: absolute;
+    left: 59px;
+}

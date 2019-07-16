@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>TheGioiDiDong</title>
+</head>
+<body>
+<p>
+    <label><h1>TheGioiDiDong</h1></label>
+</p>
+<p>
+<div id="mobile">
+    <div id="product_one">
+        <img class="image" src="SS10.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp SamSung Galaxy S10 <br><br>
+        <button class="btn" onclick="app.add(20000000,'SS10','8 GB Ram','128 GB','6.4 Inches','Supper AMOLED')">Add
+        </button>
+    </div>
+    <div id="product_two">
+        <img class="image" src="IP8.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp Iphone 8 Plus 64G<br><br>
+        <button class="btn" onclick="app.add(12000000,'IP8','6 GB Ram','64 GB','5.7 Inches','AMOLED')">Add</button>
+
+    </div>
+    <div id="product_three">
+        <img class="image" src="NKA3.2.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nokia 3.2<br><br>
+        <button class="btn" onclick="app.add(2000000,'NKA3.2','4 GB Ram','32 GB','4.7 Inches','OLED')">Add</button>
+
+    </div>
+    <div id="product_four">
+        <img class="image" src="OPRENO.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp OPPO Reno<br><br>
+        <button class="btn" onclick="app.add(5000000,'OPRENO','6 GB Ram','12 GB','5.7 Inches','OLED')">Add</button>
+
+    </div>
+    <div id="product_five">
+        <img class="image" src="IPXM.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp IphoneX Max 128G<br><br>
+        <button class="btn" onclick="app.add(22000000,'IPXM','8 GB Ram','64 GB','6.4 Inches','Supper AMOLED')">Add
+        </button>
+
+    </div>
+    <div id="product_six">
+        <img class="image" src="SSM20.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp &nbsp &nbsp SamSung M20<br><br>
+        <button class="btn" onclick="app.add(7000000,'SSM20','4 GB Ram','64 GB','5.7 Inches','AMOLED')">Add</button>
+
+    </div>
+    <div id="product_seven">
+        <img class="image" src="XAMk20.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp Xiaomi Redmi K20<br><br>
+        <button class="btn" onclick="app.add(6000000,'XAMk20','6 GB Ram','32 GB','4.7 Inches','OLED')">Add</button>
+
+    </div>
+    <div id="product_eight">
+        <img class="image" src="HWIp30.PNG" height="100" width="90"/><br><br><br><br><br><br><br>
+        &nbsp &nbsp &nbsp &nbsp &nbsp Huawei P30<br><br>
+        <button class="btn" onclick="app.add(17000000,'HWIp30','8 GB Ram','64 GB','6.4 Inches','Supper AMOLED')">Add
+        </button>
+
+    </div>
+</div>
+</p>
+<div class="List-product">
+    <h1>List Product</h1>
+    <table border="1 solid" width="400">
+        <tr>
+            <td colspan="4">Name Product</td>
+            <td colspan="2">Total Product: <span id="total-product"></span></td>
+        </tr>
+        <tbody id="list-product">
+        </tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+</div>
+<br>
+<div id="showDetail"></div>
+
+<script src="my.js"></script>
+<link rel="stylesheet" href="my.css">
+
+</body>
+</html>
